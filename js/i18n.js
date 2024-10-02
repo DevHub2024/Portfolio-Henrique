@@ -120,8 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
         languageSelector.addEventListener('change', (event) => {
             setLanguage(event.target.value);
         });
-
-        // Set initial language
+        
         setLanguage('pt');
     }
 });
