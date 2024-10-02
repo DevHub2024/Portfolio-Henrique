@@ -12,7 +12,7 @@ function calcularIdade(dataNascimento) {
 }
 
 function atualizarIdade() {
-    const dataNascimento = '2006-01-19'; // Substitua pela sua data de nascimento no formato YYYY-MM-DD
+    const dataNascimento = '2006-01-19'; 
     const idade = calcularIdade(dataNascimento);
     document.getElementById('idade').textContent = idade;
 }
